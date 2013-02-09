@@ -1,0 +1,18 @@
+/* When we don't set border-color, color of a text is used as a default */
+.one {
+  color: #6CC644;
+  border: medium solid;
+}
+
+/* You can use other color on each side */
+.two {
+  border: 10px solid;
+  border-color: #6CC644 #FFC621 #DE6525 #256A84;
+}
+
+/* You can use other color for other styles */
+.three {
+  border-width: 5px;
+  border-style: ridge dashed solid;
+  border-color: #6CC644 #DE6525;
+}
